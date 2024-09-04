@@ -28,15 +28,19 @@ int p[N], sz[N], dad, c;
 void dfs(int u){
     c++;
     p[u] = dad;
-    for(int v : adj[u]) dfs(v);
+    for(int v : adj[u]){
+        if(!p[v]) dfs(v);
+    }
 }
 
 void solve(){
     int n; cin >> n;
     FOR(i, 2, n){
         int x, y, w; cin >> x >> y >> w;
-        if(x > y) swap(x, y);
-        if(!lk(w)) adj[x].pb(y);
+        if(!lk(w)){
+            adj[x].pb(y);
+            adj[y].pb(x);
+        }
     }
     FOR(i, 1, n){
         if(!p[i]){
