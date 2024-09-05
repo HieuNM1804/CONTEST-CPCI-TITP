@@ -22,8 +22,6 @@ vector<ii> apple, door;
 int used[1005][1005];
 int dis[10][1005][1005];
 
-// dis[i][j][k] = khoảng cách ngắn nhất cây táo thứ i tới ô (j, k)
-
 bool ok(int i, int j){
 	return (i >= 1 && i <= n && j >= 1 && j <= m && a[i][j] != '#');
 }
