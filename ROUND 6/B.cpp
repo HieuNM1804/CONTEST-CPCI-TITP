@@ -14,7 +14,6 @@ using namespace std;
 
 int sz[100];
 
-//Hieusobad qua non
 
 void solve(){
 	sz[0] = 3;
