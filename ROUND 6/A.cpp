@@ -12,8 +12,6 @@
 
 using namespace std;
 
-// Hieusobad qua non
-
 vector<int> dp(5009);
 
 void solve(){
