@@ -12,8 +12,6 @@
 
 using namespace std;
 
-// Hieuobad qua non
-
 void solve(){
     int n; cin >> n;
     int a[n + 1], mi[n + 1];   
