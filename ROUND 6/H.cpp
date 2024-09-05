@@ -9,7 +9,6 @@
 #define FOD(i,a,b) for(int i = (a), _b = (b); i >= _b; i--)
 #define MOD 1000000007
 #define int long long
-// cho em đúng test cuối đi
 
 using namespace std;
 
