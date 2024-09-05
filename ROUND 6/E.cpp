@@ -12,8 +12,6 @@
 
 using namespace std;
 
-// Hieuobad qua non
-
 void solve(){
     int n; cin >> n;
     map<string, int> m;
